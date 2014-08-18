@@ -1,0 +1,36 @@
+{
+  "name": "transaction-tracer",
+  "version": "0.0.0",
+  "description": "A lightweight transaction tracing signaller. Does almost nothing if you're not tracing.",
+  "main": "transaction_tracer.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "transaction",
+    "tracing",
+    "debugging",
+    "profiling"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "dependencies": {
+    "eenano": "^1.0.0",
+    "seqid": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/transaction-tracer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/transaction-tracer/issues"
+  },
+  "homepage": "https://github.com/brycebaril/transaction-tracer"
+}
