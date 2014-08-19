@@ -3,7 +3,14 @@
 var SeqId = require("seqid")
 var EENano = require("eenano")
 
-module.exports = new Tracer()
+module.exports = (function getTracer() {
+  if (global.transactionTracer) {
+    return global.transactionTracer
+  }
+  global.transactionTracer = new Tracer()
+  return global.transactionTracer
+})()
+
 
 function Tracer() {
   if (!(this instanceof Tracer)) {

@@ -19,11 +19,11 @@
   "author": "Bryce B. Baril",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^2.14.0"
+    "tape": "~2.14.0"
   },
   "dependencies": {
-    "eenano": "^1.0.0",
-    "seqid": "^1.0.0"
+    "eenano": "~1.0.0",
+    "seqid": "~1.0.0"
   },
   "repository": {
     "type": "git",
